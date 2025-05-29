@@ -52,12 +52,25 @@ Those will display the number as base-10, but I added some other types to make c
 ### Offset
 The offset is read as hex
 
+<br>
+
 So if I wanted to read a float from player 1 at offset 0x0, I'd write it like this
 ```
 player1 float 0
 ```
 
-Or if I want the bitmask from player 3 at offset 0xD0, it would look like this
+You can have as many entries as you want, on their own lines
+So if I also wanted the bitmask from player 3 at offset 0xD0, it would look like this
 ```
+player1 float 0
 player3 mask32 d0
 ```
+
+### Writing
+To write data, add = followed by the new value
+```
+player1 float 0 = 1.0
+player3 mask32 d0 = FFFF
+```
+
+hex and mask types will be read as hex, the others will interpret it as a normal integer
