@@ -58,9 +58,13 @@ So if I wanted to read a float from player 1 at offset 0x0, I'd write it like th
 ```
 player1 float 0
 ```
+With that you should see the vftable being printed as a float on each frame during a race
 
-You can have as many entries as you want, on their own lines
-So if I also wanted the bitmask from player 3 at offset 0xD0, it would look like this
+<br>
+
+You can have as many entries as you want, each on their own line
+
+So if I also wanted to read a bitmask from player 3 at offset 0xD0, it would look like this
 ```
 player1 float 0
 player3 mask32 d0
