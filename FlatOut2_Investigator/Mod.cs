@@ -1,16 +1,17 @@
-﻿using FlatOut2_Investigator.Configuration;
+﻿using FlatOut2.SDK;
+using FlatOut2.SDK.API;
+using FlatOut2.SDK.Structs;
+using FlatOut2_Investigator.Configuration;
 using FlatOut2_Investigator.Template;
+using Microsoft.VisualBasic;
+using Reloaded.Hooks.Definitions.Structs;
 using Reloaded.Hooks.ReloadedII.Interfaces;
 using Reloaded.Mod.Interfaces;
 using System.Numerics;
-using System.Runtime.InteropServices;
-using Microsoft.VisualBasic;
-using FlatOut2.SDK.API;
-using FlatOut2.SDK.Structs;
-using FlatOut2.SDK;
-using Reloaded.Hooks.Definitions.Structs;
-using System.Runtime.CompilerServices;
 using System.Reflection.Emit;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+using System.Runtime.Remoting;
 
 namespace FlatOut2_Investigator
 {
@@ -90,10 +91,10 @@ namespace FlatOut2_Investigator
 
         private static unsafe void SetDynamically<T>(nint ptr, dynamic val, T refVal)
         {
-            *(T*)ptr = val;
+            *(T*)ptr = (T)val;
         }
 
-        private static unsafe dynamic StringToDynamic(string type, string value)
+        private unsafe dynamic StringToDynamic(string type, string value)
         {
             int numBase = (type.StartsWith("hex") || type.StartsWith("mask")) ? 16 : 10;
 
