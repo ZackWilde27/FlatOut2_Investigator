@@ -1,0 +1,15 @@
+C:\Users\zackw\Desktop\Reloaded-II\Mods\FlatOut2_Investigator\Preview.png
+C:\Users\zackw\Desktop\Reloaded-II\Mods\FlatOut2_Investigator\ModConfig.json
+C:\Users\zackw\Desktop\Reloaded-II\Mods\FlatOut2_Investigator\FlatOut2_Investigator.deps.json
+C:\Users\zackw\Desktop\Reloaded-II\Mods\FlatOut2_Investigator\FlatOut2_Investigator.dll
+C:\Users\zackw\Desktop\Reloaded-II\Mods\FlatOut2_Investigator\FlatOut2_Investigator.pdb
+D:\reloadedmods\FlatOut2_Investigator\FlatOut2_Investigator\obj\Debug\FlatOut2_Investigator.csproj.AssemblyReference.cache
+D:\reloadedmods\FlatOut2_Investigator\FlatOut2_Investigator\obj\Debug\FlatOut2_Investigator.GeneratedMSBuildEditorConfig.editorconfig
+D:\reloadedmods\FlatOut2_Investigator\FlatOut2_Investigator\obj\Debug\FlatOut2_Investigator.AssemblyInfoInputs.cache
+D:\reloadedmods\FlatOut2_Investigator\FlatOut2_Investigator\obj\Debug\FlatOut2_Investigator.AssemblyInfo.cs
+D:\reloadedmods\FlatOut2_Investigator\FlatOut2_Investigator\obj\Debug\FlatOut2_Investigator.csproj.CoreCompileInputs.cache
+D:\reloadedmods\FlatOut2_Investigator\FlatOut2_Investigator\obj\Debug\FlatOut2.3943D5AA.Up2Date
+D:\reloadedmods\FlatOut2_Investigator\FlatOut2_Investigator\obj\Debug\FlatOut2_Investigator.dll
+D:\reloadedmods\FlatOut2_Investigator\FlatOut2_Investigator\obj\Debug\refint\FlatOut2_Investigator.dll
+D:\reloadedmods\FlatOut2_Investigator\FlatOut2_Investigator\obj\Debug\FlatOut2_Investigator.pdb
+D:\reloadedmods\FlatOut2_Investigator\FlatOut2_Investigator\obj\Debug\ref\FlatOut2_Investigator.dll

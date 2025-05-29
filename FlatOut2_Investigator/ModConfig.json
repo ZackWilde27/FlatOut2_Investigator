@@ -1,0 +1,28 @@
+{
+  "ModId": "FlatOut2_Investigator",
+  "ModName": "FlatOut2_Investigator",
+  "ModAuthor": "Zack Wilde",
+  "ModVersion": "1.0.0",
+  "ModDescription": "It allows you to read and write arbitrary data in RAM, kinda like Cheat Engine, it\u0027s specifically made to help with disassembly/decompilation",
+  "ModDll": "FlatOut2_Investigator.dll",
+  "ModIcon": "Preview.png",
+  "ModR2RManagedDll32": "x86/FlatOut2_Investigator.dll",
+  "ModR2RManagedDll64": "x64/FlatOut2_Investigator.dll",
+  "ModNativeDll32": "",
+  "ModNativeDll64": "",
+  "Tags": [],
+  "CanUnload": false,
+  "HasExports": false,
+  "IsLibrary": false,
+  "ReleaseMetadataFileName": "FlatOut2_Investigator.ReleaseMetadata.json",
+  "PluginData": {},
+  "IsUniversalMod": false,
+  "ModDependencies": [
+    "reloaded.sharedlib.hooks"
+  ],
+  "OptionalDependencies": [],
+  "SupportedAppId": [
+    "flatout2.exe"
+  ],
+  "ProjectUrl": ""
+}
