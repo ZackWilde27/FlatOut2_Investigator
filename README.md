@@ -78,3 +78,5 @@ player3 mask32 d0 = FFFF
 ```
 
 hex and mask types will be read as hex, the others will interpret it as a normal integer
+
+It checks if the text file changes and re-reads it when needed, so you can change which places you want to read or write, and it'll update accordingly
